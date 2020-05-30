@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One");
+
+/* My styling. */
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Header and navigation bar styling. */
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3498db;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-item {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.navbar-item:hover {
+    background-color: #2980b9;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.active-link {
+    background-color: #2980b9;
+}
+
+/* Title, subtitle, and horizontal line. */
+.title {
+    margin-top: 9rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.title-text {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 4rem;
+}
+
+.subtitle-text {
+    font-size: 2.4rem;
+}
+
+.hr {
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #7f8c8d;
+    width: 55rem;
+}
+
+/* Buttons, post text area, name input, and body styling. */
+.content {
+    min-height: 100%;
+    height: 100%;
+}
+
+.btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #3498db;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+.post-textarea, .name-input {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: #7f8c8d;
+}
+
+.posts {
+    margin: 2rem 2rem 14rem 2rem;
+}
+
+/* Footer styling. */
+.footer {
+    height: 12rem;
+    line-height: 1rem;
+    overflow: hidden;
+    background-color: #3498db;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-item {
+    display: block;
+    margin-top: 3rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.footer-item a:hover {
+    color: #2980b9;
+}
+
+/* Font Awesome social media icons (on footer) styling. */
+.social-icon-list {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 3.5rem;
+}
+
+.social-icon {
+    font-size: 3rem;
+    display: inline;
+    margin: 0 1rem 0 1rem;
+    text-decoration: none;
+}
+
+.white-icon {
+    color: #ffffff;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.white-icon:hover {
+    color: #2980b9;
+}
+
+/* Post boxes styling */
+.post_box {
+    background: #fff;
+    padding: 1.2rem 0 0 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    border: 0.1rem solid #7f8c8d;
+}
+
+.post_box-header {
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.post_box-avatar {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    float: left;
+    margin-right: 1.6rem;
+    border: 0.1rem solid #fff;
+    box-shadow: 0 0 0 0.2rem #f00;
+}
+
+.post_box-avatar::after {
+    content:"";
+    display:block;
+}
+
+.post_box-name {
+    font-weight: bold;
+}
+
+.post_box-subtitle {
+    color: #777;
+}
+
+.post_box-body {
+    margin-top: 1.6rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.post_box-options {
+    float: right;
+}
+
+.option-btn {
+    background: #f8f8f8;
+    border: none;
+    color: #2c3e50;
+    padding: 0.7rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    outline: none;
+    height: 4.2rem;
+}

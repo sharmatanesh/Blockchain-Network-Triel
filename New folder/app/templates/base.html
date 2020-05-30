@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="../static/stylesheet.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	<body>
+		<div >
+			<a class="navbar-item left active-link" href="/">Home</a>
+			<a class="navbar-item left" href="{{ node_address }}/mine" target="_blank">Request to Mine</a>
+			<a class="navbar-item left" href="/">Resync Blockchain</a>
+		</div><br><br>
+		{% block content %}{% endblock %}
+	</body>
+</html>
